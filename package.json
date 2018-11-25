@@ -1,0 +1,28 @@
+{
+  "name": "@commander-lol/tiny-captain",
+  "version": "1.0.0-beta.1",
+  "description": "Portfolio site generator for Tiny Captain",
+  "bin": {
+    "portfolio": "./bin/generator.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "site",
+    "generator",
+    "script",
+    "binary"
+  ],
+  "author": "Louis Capitanchik <contact@louiscap.co>",
+  "license": "GPL-3.0+",
+  "dependencies": {
+    "fs-jetpack": "^2.2.0",
+    "handlebars": "^4.0.12",
+    "neodoc": "^2.0.2"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.6"
+  }
+}
