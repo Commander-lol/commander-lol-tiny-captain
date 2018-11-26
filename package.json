@@ -21,7 +21,8 @@
     "fs-jetpack": "^2.2.0",
     "handlebars": "^4.0.12",
     "inquirer": "^6.2.0",
-    "neodoc": "^2.0.2"
+    "neodoc": "^2.0.2",
+    "remarkable": "^1.7.1"
   },
   "devDependencies": {
     "jest": "^23.6.0",

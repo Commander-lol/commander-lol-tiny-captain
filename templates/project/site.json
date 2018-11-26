@@ -6,6 +6,8 @@
   "header_image": "/resources/header.png",
   "favicon": "/resources/favicon.png",
 
+  "output": "./dist",
+
   "options": {
     "enable_resource_integrity": true
   },
