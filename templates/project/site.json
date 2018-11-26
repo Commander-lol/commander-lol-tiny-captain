@@ -1,0 +1,31 @@
+{
+  "site_name": "{{ site_name }}",
+  "site_description": "{{ site_desc }}",
+  "site_author": "{{ site_author }}",
+  "site_copyright": "&copy; {{ year }} {{ site_author }}",
+  "header_image": "/resources/header.png",
+  "favicon": "/resources/favicon.png",
+
+  "options": {
+    "enable_resource_integrity": true
+  },
+
+  "meta_description": null,
+  "meta_image": null,
+
+  "twitter_handle": null,
+  "facebook_handle": null,
+  "instagram_handle": null,
+
+  "extra_pages": "./pages/",
+
+  "template_layout": "./templates/layout.hbs",
+  "template_header": "./templates/header.hbs",
+  "template_footer": "./templates/footer.hbs",
+  "template_navigation": "./templates/navigation.hbs",
+  "template_content": "./templates/page_content.hbs",
+  "template_gallery": "./templates/gallery.hbs",
+  "template_fb_media": "./templates/social/facebook.hbs",
+  "template_tw_media": "./templates/social/twitter.hbs",
+  "template_ig_media": "./templates/social/instagram.hbs"
+}
