@@ -6,7 +6,8 @@
     "portfolio": "./bin/generator.js"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "preview": "http-server test/dist"
   },
   "keywords": [
     "site",
@@ -25,6 +26,7 @@
     "remarkable": "^1.7.1"
   },
   "devDependencies": {
+    "http-server": "^0.11.1",
     "jest": "^23.6.0",
     "nodemon": "^1.18.6"
   }

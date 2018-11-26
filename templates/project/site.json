@@ -3,8 +3,8 @@
   "site_description": "{{ site_desc }}",
   "site_author": "{{ site_author }}",
   "site_copyright": "&copy; {{ year }} {{ site_author }}",
-  "header_image": "/resources/header.png",
-  "favicon": "/resources/favicon.png",
+  "header_image": "./assets/header.png",
+  "favicon": "./assets/favicon.png",
 
   "output": "./dist",
 
@@ -20,6 +20,7 @@
   "instagram_handle": null,
 
   "extra_pages": "./pages/",
+  "gallery_path": "./artwork/",
 
   "template_layout": "./templates/layout.hbs",
   "template_header": "./templates/header.hbs",
